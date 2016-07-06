@@ -1,0 +1,108 @@
+@charset "UTF-8";
+@import url(reset.css);
+
+@mixin full{
+	width:100%;
+	height:100%;
+}
+
+@mixin pos($pos:relative){
+	position:$pos;
+}
+@mixin flex($dir:row){
+	display:-webkit-flex;
+	-webkit-flex-direction:$dir;
+}
+html,body,.container{
+	@include full;
+}
+html{
+	font-size:100px;
+}
+body{
+	font-size:14px;
+	font-family:"Microsoft YaHei";
+}
+.container{
+	@include flex(column);
+}
+/****************header*****************/
+ .rent_car_d{
+ 	@include pos(absolute);
+	right:0.1rem;
+	top:0.08rem;
+	width:0.24rem;
+	height:0.24rem;
+ 	background:url(../images/rent_car_detailR_03.png) no-repeat;
+	background-size:cover;
+ }
+ /****************main*****************/
+ .main{
+ 	width:100%;
+ 	height:100%;
+ 	overflow-y:scroll;
+ }
+ .cont{
+ 	width:100%;
+ 	height:100%;
+ 	time{
+ 		padding: 0.05rem 4% 0.1rem;
+ 		display:inline-block;
+ 	}	
+ }
+ .lists{
+ 	@include pos;
+ 	left:3%;
+ 	top:0.2rem;
+ 	width:90%;
+ 	border:1px solid #b5f342;
+ 	border-radius:0.04rem;
+ 	padding:0.2rem 2%;
+ 	margin-bottom:0.1rem;
+ 	span{
+ 		@include pos(absolute);
+ 		width:1.0rem;
+ 		height:0.3rem;
+ 		text-align:center;
+ 		line-height:0.3rem;
+ 		border-radius:5px;
+ 		background:#b5f342;
+ 		color:#fff;
+ 		-webkit-transform:translate3d(-0.1rem,-0.4rem,0) rotate(-8deg);
+ 	}
+ 	dt{
+ 		font-size:14px;
+ 		font-weight:bold;
+ 	}
+ 	p{
+ 		line-height:26px;
+ 		color:#5a595a;
+ 	}
+ 	img{
+ 		display:block;
+ 		width:98%;
+ 		height:auto;
+ 		margin:0 auto;
+ 		margin-bottom:0.1rem;
+ 	}
+ }
+ .address{
+ 	width:90%;
+ 	padding:0.1rem 2%;
+ 	margin:0 auto;
+ 	margin-top:0.3rem;
+ 	margin-bottom:0.4rem;
+ 	border:2px dashed #b5f342;
+ 	border-radius:5px;
+ 	a{
+ 		color:blue;
+ 	}
+ }
+ .wineBar_bg{
+ 	background:#fff;
+ }
+ .address h2{
+ 	font-size:18px;
+ 	font-weight:bold;
+ 	color:#ff4984;
+ }

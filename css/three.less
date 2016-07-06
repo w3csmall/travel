@@ -1,0 +1,168 @@
+*{
+	margin:0;
+	padding:0;
+}
+*,*:after,*:before{
+	-webkit-box-sizing:border-box;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.pos(a){
+	position: absolute;
+}
+.pos(r){
+	position:relative;
+}
+.pos(f){
+	position:fixed;
+}
+html{
+	width:100%;
+	height:100%;
+	font-size:100px;
+}
+body{
+	width:100%;
+	height:100%;
+	font-size:16px;
+}
+/*----------  wrap  ---------------*/
+.wrap{
+	width:100%;
+	height:100%;
+	display:-webkit-box;
+	-webkit-box-orient:vertical;
+}
+/*----------  header  ---------------*/
+.header{
+	width:100%;
+	height:0.46rem;
+	background-image: url(../img/bj.png);
+	.pos(r);
+	h2{
+		color:#fff;
+		text-align:center;
+		line-height:0.46rem;
+	}
+	a{
+		.pos(a);
+		&:nth-child(1){
+			width:0.1rem;
+			height:0.2rem;
+			left:10px;
+			top:50%;
+			margin-top:-0.1rem;
+			img{
+				width:100%;
+				height:100%;
+			}
+		}
+		&:nth-child(3){
+			width:0.25rem;
+			height:0.25rem;
+			right:10px;
+			top:50%;
+			margin-top:-0.125rem;
+			img{
+				width:100%;
+				height:100%;
+			}
+		}
+	}
+}
+/*---------  main  -----------*/
+.main{
+	width:100%;
+	height:100%;
+	-webkit-box-flex:1;
+	background:#f7f7f7;
+	overflow-y:scroll;
+}
+/*---------  con  -----------*/
+.con{
+	width:100%;
+	height:1.7rem;
+	background:#ffb629;
+	overflow-y:scroll;
+	.pos(r);
+	b{
+		.pos(a);
+		padding:0.05rem 0.15rem;
+		font-weight:normal;
+		background:rgba(0,0,0,0.4);
+		color:#fff;
+		border-radius:0.5rem;
+		right:0.125rem;
+		top:0.125rem;
+	}
+	dl{
+		width:50%;
+		height:1.7rem;
+		margin:0 auto;
+		dt{
+			width:40%;
+			height:0.75rem;
+			margin:0 auto;
+			img{
+				width:100%;
+				height:100%;
+				margin:0.17rem 0 0 0;
+			}
+		}
+		dd{
+			margin-top:0.25rem;
+			line-height:0.27rem;
+			text-align:center;
+			color:#fff;
+			p{
+				span{
+					background:#fff;
+					color:#ffb629;
+					padding:0.03rem;
+					border-radius:4px;
+				}
+			}
+		}
+	}
+}
+/*---------  con2  -----------*/
+.con2{
+	width:100%;
+	ul{
+		width:100%;
+		li{
+			line-height:0.55rem;
+			height:0.55rem;
+			border-bottom:1px solid #ccc;
+			.pos(r);
+			input{
+				width:65%;
+				height:0.55rem;
+				border:none;
+				background:none;
+				padding-left:0.1rem;
+			}
+			span{
+				width:30%;
+				.pos(a);
+				right:0.1rem;
+				text-align:right;
+			}
+		}
+	}
+	button{
+		display:block;
+		width:94%;
+		height:0.45rem;
+		background:#ff9618;
+		color:#fff;
+		border:none;
+		margin:0.2rem auto;
+		border-radius:10px;
+		font-size:18px;
+	}
+}

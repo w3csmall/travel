@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" ng-app='myapp'>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta content="yes" name="apple-mobile-web-app-capable">
+	<meta content="black" name="apple-mobile-web-app-status-bar-style">
+	<meta content="telephone=no" name="format-detection">
+	<meta content="email=no" name="format-detection">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/jiudian3.css">
+
+	<script src='js/handlebars-1.0.0.beta.6.js'></script>
+	<script type="text/javascript" src='js/setfontsize.js'></script>
+	
+	<script type="text/javascript" src='js/zepto.min.js'></script>
+	<script type="text/javascript" src='js/jquery.js'></script>
+	<script type="text/javascript" src='js/iscroll4.js'></script>
+
+</head>
+<body>
+	<div class='wrap' id='wrap'>
+		<header class="header">
+			<a href="#" id='back'></a>
+			<h2>吃喝玩了</h2>
+			<a href="#" id='tool'></a>
+		</header>
+		<section id='jiudianxiangqing'  ng-controller='ctr'>
+			<div class='showxiangqingjiudian'>
+				<div class="jiudianxiangqing1">
+					<div class='xie'>菲芘酒吧</div>
+					<p>{{ cont }}</p>
+					<ul id='imglist'>
+						<li ng-repeat='k in info'><img ng-src="images/{{k.imgurl}}" alt=""></li>
+					</ul>
+				</div>
+				<div class='jiudiandizhi1'>
+					<h3 id='both3'></h3>
+					<p>{{ address }}</p>
+				</div>
+			</div>
+		</section>
+	</div>
+	<script type="text/javascript" src='js/angular.min.js'></script>
+	<script>
+		var myApp=angular.module('myapp',[]);
+			myApp.controller('ctr',["$scope","$http",function($s,$http){
+				$s.info='';
+				$http.get('data/xiangqing.json').success(function(data){
+					$s.info=data.jiudianxiangqing5.imglist;
+					$s.cont=data.jiudianxiangqing5.cont;
+					$s.address=data.jiudianxiangqing1.address;
+				}).error(function(){
+					alert(0);
+				})
+			}]);
+
+	</script>
+	<script type="text/javascript" src='js/jiudian5.js'></script>
+</body>
+</html>

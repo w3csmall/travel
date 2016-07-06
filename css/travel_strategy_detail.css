@@ -1,0 +1,82 @@
+@import url(reset.css);
+html, body, .container {
+  width: 100%;
+  height: 100%; }
+
+html {
+  font-size: 100px; }
+
+body {
+  font-size: 14px;
+  font-family: "Microsoft YaHei"; }
+
+.container {
+  display: -webkit-box;
+  -webkit-box-orient: vertical; }
+
+/****************header*****************/
+.rent_car_d {
+  position: absolute;
+  right: 0.1rem;
+  top: 0.08rem;
+  width: 0.24rem;
+  height: 0.24rem;
+  background: url(../images/rent_car_detailR_03.png) no-repeat;
+  background-size: cover; }
+
+/****************main*****************/
+.main {
+  overflow-y: scroll;
+  -webkit-flex-grow: 1;
+  width: 100%;
+  height: 100%; }
+
+.cont {
+  width: 100%; }
+  .cont time {
+    padding: 0.05rem 4% 0.1rem;
+    display: inline-block; }
+
+.lists {
+  position: relative;
+  left: 3%;
+  top: 0.2rem;
+  width: 90%;
+  border: 1px solid #b5f342;
+  border-radius: 0.04rem;
+  padding: 0.2rem 2%;
+  margin-bottom: 0.1rem; }
+  .lists span {
+    position: absolute;
+    padding: 0.03rem 0.06rem;
+    text-align: center;
+    line-height: 0.3rem;
+    border-radius: 5px;
+    background: #b5f342;
+    color: #fff;
+    -webkit-transform: translate3d(-0.12rem, -0.42rem, 0) rotate(-8deg); }
+  .lists dt {
+    font-size: 14px;
+    font-weight: bold; }
+  .lists p {
+    line-height: 26px;
+    color: #5a595a; }
+  .lists img {
+    display: block;
+    width: 98%;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 0.1rem; }
+
+.address {
+  width: 90%;
+  padding: 0.1rem 2%;
+  margin: 0 auto;
+  margin-top: 0.3rem;
+  margin-bottom: 0.4rem;
+  border: 2px dashed #b5f342;
+  border-radius: 5px; }
+  .address a {
+    color: blue; }
+
+/*# sourceMappingURL=travel_strategy_detail.css.map */

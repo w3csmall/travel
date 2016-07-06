@@ -1,0 +1,215 @@
+@charset "UTF-8";
+@import url(reset.css);
+html, body, .container {
+  width: 100%;
+  height: 100%; }
+
+html {
+  font-size: 100px; }
+
+body {
+  font-size: 14px;
+  font-family: "Microsoft YaHei"; }
+
+.container {
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  box-sizing: border-box;
+  background: #e5e5e5; }
+
+/*****************ui_header*******************/
+.ui_header {
+  height: 0.4rem;
+  width: 100%;
+  background: #313439;
+  position: relative; }
+
+.ui_return {
+  position: absolute;
+  left: 0.1rem;
+  top: 0.08rem;
+  width: 0.24rem;
+  height: 0.24rem;
+  background: url(../images/eat_drink_headerL_03.png) no-repeat;
+  background-size: cover; }
+
+.ui_title {
+  height: 0.4rem;
+  line-height: 0.4rem;
+  text-align: center;
+  font-size: 18px;
+  color: #fff; }
+
+.ui_save {
+  position: absolute;
+  right: 0.1rem;
+  top: 0.08rem;
+  width: 0.24rem;
+  height: 0.24rem;
+  background: url(../images/eat_drink_headerR_03.png) no-repeat;
+  background-size: cover; }
+
+/*****************ui_footer*******************/
+.ui_footer {
+  height: 0.4rem;
+  background: #293031;
+  position: relative; }
+
+/*****************personal_center(公共样式)*******************/
+.center_user {
+  width: 100%;
+  height: 1.45rem;
+  background: url(../images/center_user_02.png) no-repeat;
+  background-size: cover;
+  position: relative; }
+  .center_user a {
+    position: absolute;
+    width: 0.8rem;
+    height: 1rem;
+    left: 0.1rem;
+    top: 0.1rem; }
+    .center_user a dd {
+      text-align: center; }
+    .center_user a img {
+      width: 0.8rem;
+      height: 0.8rem; }
+
+.center_save {
+  background: #fff;
+  width: 100%;
+  height: 0.6rem;
+  display: -webkit-flex;
+  -webkit-flex-direction: row;
+  padding: 0.05rem 0; }
+  .center_save a {
+    width: 50%;
+    text-align: center;
+    border-bottom: 4px solid #ccc; }
+    .center_save a img {
+      width: 0.2rem;
+      height: 0.2rem; }
+
+.center_main {
+  background: #fff;
+  padding-bottom: 0.2rem; }
+  .center_main a {
+    display: block;
+    width: 100%;
+    height: 0.45rem;
+    line-height: 0.45rem;
+    padding: 0 4%; }
+    .center_main a:nth-child(2) p:before {
+      content: "";
+      position: absolute;
+      width: 0.2rem;
+      height: 0.2rem;
+      background: url(../images/center_user_17.png);
+      background-size: cover;
+      left: 0.1rem;
+      top: 50%;
+      margin-top: -0.1rem; }
+    .center_main a:nth-child(3) p:before {
+      content: "";
+      position: absolute;
+      width: 0.2rem;
+      height: 0.2rem;
+      background: url(../images/center_user_19.png);
+      background-size: cover;
+      left: 0.1rem;
+      top: 50%;
+      margin-top: -0.1rem; }
+    .center_main a:nth-child(4) p:before {
+      content: "";
+      position: absolute;
+      width: 0.2rem;
+      height: 0.2rem;
+      background: url(../images/center_user_21.png);
+      background-size: cover;
+      left: 0.1rem;
+      top: 50%;
+      margin-top: -0.1rem; }
+    .center_main a:nth-child(5) p:before {
+      content: "";
+      position: absolute;
+      width: 0.2rem;
+      height: 0.2rem;
+      background: url(../images/center_user_23.png);
+      background-size: cover;
+      left: 0.1rem;
+      top: 50%;
+      margin-top: -0.1rem; }
+    .center_main a p {
+      line-height: 0.45rem;
+      width: 92%;
+      border-bottom: 1px solid #ccc;
+      position: relative; }
+      .center_main a p:before {
+        content: "";
+        position: absolute;
+        width: 0.2rem;
+        height: 0.2rem;
+        background: url(../images/center_user_14.png);
+        background-size: cover;
+        left: 0.1rem;
+        top: 50%;
+        margin-top: -0.1rem; }
+      .center_main a p:after {
+        content: "";
+        position: absolute;
+        width: 0.2rem;
+        height: 0.2rem;
+        background: url(../images/center_arrow_15.png);
+        background-size: cover;
+        right: 0.1rem;
+        top: 50%;
+        margin-top: -0.1rem; }
+      .center_main a p span {
+        padding-left: 0.4rem; }
+
+.center_bg_img {
+  width: 100%;
+  height: auto; }
+
+.center_log {
+  padding: 0 0.2rem;
+  background: #fff; }
+  .center_log .border_bot {
+    height: 0.28rem;
+    border-bottom: 1px solid #ccc;
+    padding-top: 0.16rem; }
+    .center_log .border_bot img {
+      width: 0.2rem;
+      height: 0.2rem;
+      vertical-align: middle;
+      padding-right: 0.1rem; }
+    .center_log .border_bot input {
+      width: 80%;
+      background: none;
+      border: none; }
+
+.center_pwd {
+  position: relative;
+  height: 0.44rem;
+  line-height: 0.44rem; }
+  .center_pwd a {
+    float: right; }
+  .center_pwd input {
+    margin-top: -0.04rem; }
+
+.center_btn {
+  width: 100%;
+  height: 0.4rem;
+  margin-bottom: 0.1rem;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 5px; }
+
+.center_btn1 {
+  background: #ff971d; }
+
+.center_btn2 {
+  background: #2fcd42; }
+
+/*# sourceMappingURL=common.css.map */

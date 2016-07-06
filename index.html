@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta name="format-detection" content="telephone=no"/>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no"/>
+	<meta name="format-detection" content="email=no"/>
+	<title>首页</title>
+	<link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+	<div class="container">
+		
+	</div>
+	<script src="lib/zepto.js"></script>
+	<script src="lib/setfontsize.js"></script>
+	<script src="lib/handlebars.js"></script>
+	<script id="moban" type="text/x-handlebars-template">
+		<header class="box">
+		{{#each this.head}}
+			<a href="{{url}}" style="background:{{bg_color}}">
+				<dl>
+					<dt><img src="images/{{img}}" alt=""></dt>
+					<dd>{{title}}</dd>
+				</dl>
+			</a>
+		{{/each}}
+		</header>
+		<div class="main">
+			<div class="imgBox">
+			{{#each this.pic}}
+				<a href="#"><img src="images/{{img}}" alt=""></a>
+			{{/each}}
+			</div>
+		</div>
+		<footer class="box2">
+		{{#each this.foot}}
+			<a href="{{url}}" style="background:{{bg_color}}">
+				<dl>
+					
+					<dt><img src="images/{{img}}" alt=""></dt>
+					<dd>{{title}}</dd>
+				</dl>
+			</a>
+		{{/each}}
+		</footer>
+
+	</script>
+	<script src="js/index.js"></script>
+</body>
+</html>

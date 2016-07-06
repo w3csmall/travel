@@ -1,0 +1,146 @@
+{
+	"success":1,
+	"hotel":[
+		{
+			"img":"hotel_03.jpg",
+			"title":"五星级酒店",
+			"content":"——在规划等级中增加了AAAAA级旅游景区。新增的AAAAA级主要从细节",
+			"_src":"hotel_xq.html",
+			"xianqin":[
+				{
+					"xqimg":"hotelxq_03.jpg",
+					"xqtitle":"重庆世纪金源大饭店1",
+					"xqcontent":"厦门市鼓浪屿风景名胜区 景区简介：鼓浪屿位于福建省厦门市西南"
+				},{
+					"xqimg":"hotelxq_06.jpg",
+					"xqtitle":"重庆金科大酒店",
+					"xqcontent":"厦门市鼓浪屿风景名胜区 景区简介：鼓浪屿位于福建省厦门市西南"
+				},{
+					"xqimg":"hotelxq_08.jpg",
+					"xqtitle":"重庆金科大酒店",
+					"xqcontent":"厦门市鼓浪屿风景名胜区 景区简介：鼓浪屿位于福建省厦门市西南"
+				},{
+					"xqimg":"hotelxq_10.jpg",
+					"xqtitle":"重庆金科大酒店",
+					"xqcontent":"厦门市鼓浪屿风景名胜区 景区简介：鼓浪屿位于福建省厦门市西南"
+				},{
+					"xqimg":"hotelxq_12.jpg",
+					"xqtitle":"重庆金科大酒店",
+					"xqcontent":"厦门市鼓浪屿风景名胜区 景区简介：鼓浪屿位于福建省厦门市西南"
+				}
+			]
+		},{
+			"img":"hotel_06.jpg",
+			"title":"四星级酒店",
+			"content":"——在规划等级中增加了AAAAA级旅游景区。新增的AAAAA级主要从细节",
+			"_src":"hotel_xq2.html",
+			"xianqin2":[
+				{
+					"xqimg":"hotelxq_03.jpg",
+					"xqtitle":"重庆金科大酒店2",
+					"xqcontent":"厦门市鼓浪屿风景名胜区 景区简介：鼓浪屿位于福建省厦门市西南"
+				},{
+					"xqimg":"hotelxq_06.jpg",
+					"xqtitle":"重庆金科大酒店",
+					"xqcontent":"厦门市鼓浪屿风景名胜区 景区简介：鼓浪屿位于福建省厦门市西南"
+				},{
+					"xqimg":"hotelxq_08.jpg",
+					"xqtitle":"重庆金科大酒店",
+					"xqcontent":"厦门市鼓浪屿风景名胜区 景区简介：鼓浪屿位于福建省厦门市西南"
+				},{
+					"xqimg":"hotelxq_10.jpg",
+					"xqtitle":"重庆金科大酒店",
+					"xqcontent":"厦门市鼓浪屿风景名胜区 景区简介：鼓浪屿位于福建省厦门市西南"
+				},{
+					"xqimg":"hotelxq_12.jpg",
+					"xqtitle":"重庆金科大酒店",
+					"xqcontent":"厦门市鼓浪屿风景名胜区 景区简介：鼓浪屿位于福建省厦门市西南"
+				}
+			]
+		},{
+			"img":"hotel_08.jpg",
+			"title":"三星级酒店",
+			"content":"——在规划等级中增加了AAAAA级旅游景区。新增的AAAAA级主要从细节",
+			"_src":"hotel_xq3.html",
+			"xianqin3":[
+				{
+					"xqimg":"hotelxq_03.jpg",
+					"xqtitle":"重庆金科大酒店3",
+					"xqcontent":"厦门市鼓浪屿风景名胜区 景区简介：鼓浪屿位于福建省厦门市西南"
+				},{
+					"xqimg":"hotelxq_06.jpg",
+					"xqtitle":"重庆金科大酒店",
+					"xqcontent":"厦门市鼓浪屿风景名胜区 景区简介：鼓浪屿位于福建省厦门市西南"
+				},{
+					"xqimg":"hotelxq_08.jpg",
+					"xqtitle":"重庆金科大酒店",
+					"xqcontent":"厦门市鼓浪屿风景名胜区 景区简介：鼓浪屿位于福建省厦门市西南"
+				},{
+					"xqimg":"hotelxq_10.jpg",
+					"xqtitle":"重庆金科大酒店",
+					"xqcontent":"厦门市鼓浪屿风景名胜区 景区简介：鼓浪屿位于福建省厦门市西南"
+				},{
+					"xqimg":"hotelxq_12.jpg",
+					"xqtitle":"重庆金科大酒店",
+					"xqcontent":"厦门市鼓浪屿风景名胜区 景区简介：鼓浪屿位于福建省厦门市西南"
+				}
+			]
+		},{
+			"img":"hotel_10.jpg",
+			"title":"二星级酒店",
+			"content":"——在规划等级中增加了AAAAA级旅游景区。新增的AAAAA级主要从细节",
+			"_src":"hotel_xq4.html",
+			"xianqin4":[
+				{
+					"xqimg":"hotelxq_03.jpg",
+					"xqtitle":"重庆金科大酒店4",
+					"xqcontent":"厦门市鼓浪屿风景名胜区 景区简介：鼓浪屿位于福建省厦门市西南"
+				},{
+					"xqimg":"hotelxq_06.jpg",
+					"xqtitle":"重庆金科大酒店",
+					"xqcontent":"厦门市鼓浪屿风景名胜区 景区简介：鼓浪屿位于福建省厦门市西南"
+				},{
+					"xqimg":"hotelxq_08.jpg",
+					"xqtitle":"重庆金科大酒店",
+					"xqcontent":"厦门市鼓浪屿风景名胜区 景区简介：鼓浪屿位于福建省厦门市西南"
+				},{
+					"xqimg":"hotelxq_10.jpg",
+					"xqtitle":"重庆金科大酒店",
+					"xqcontent":"厦门市鼓浪屿风景名胜区 景区简介：鼓浪屿位于福建省厦门市西南"
+				},{
+					"xqimg":"hotelxq_12.jpg",
+					"xqtitle":"重庆金科大酒店",
+					"xqcontent":"厦门市鼓浪屿风景名胜区 景区简介：鼓浪屿位于福建省厦门市西南"
+				}
+			]
+		},{
+			"img":"hotel_12.jpg",
+			"title":"一星级酒店",
+			"content":"——在规划等级中增加了AAAAA级旅游景区。新增的AAAAA级主要从细节",
+			"_src":"hotel_xq5.html",
+			"xianqin5":[
+				{
+					"xqimg":"hotelxq_03.jpg",
+					"xqtitle":"重庆金科大酒店5",
+					"xqcontent":"厦门市鼓浪屿风景名胜区 景区简介：鼓浪屿位于福建省厦门市西南"
+				},{
+					"xqimg":"hotelxq_06.jpg",
+					"xqtitle":"重庆金科大酒店",
+					"xqcontent":"厦门市鼓浪屿风景名胜区 景区简介：鼓浪屿位于福建省厦门市西南"
+				},{
+					"xqimg":"hotelxq_08.jpg",
+					"xqtitle":"重庆金科大酒店",
+					"xqcontent":"厦门市鼓浪屿风景名胜区 景区简介：鼓浪屿位于福建省厦门市西南"
+				},{
+					"xqimg":"hotelxq_10.jpg",
+					"xqtitle":"重庆金科大酒店",
+					"xqcontent":"厦门市鼓浪屿风景名胜区 景区简介：鼓浪屿位于福建省厦门市西南"
+				},{
+					"xqimg":"hotelxq_12.jpg",
+					"xqtitle":"重庆金科大酒店",
+					"xqcontent":"厦门市鼓浪屿风景名胜区 景区简介：鼓浪屿位于福建省厦门市西南"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" ng-app='myapp'>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta content="yes" name="apple-mobile-web-app-capable">
+	<meta content="black" name="apple-mobile-web-app-status-bar-style">
+	<meta content="telephone=no" name="format-detection">
+	<meta content="email=no" name="format-detection">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/wanfjimima.css">
+
+	<script src='js/handlebars-1.0.0.beta.6.js'></script>
+	<script type="text/javascript" src='js/setfontsize.js'></script>
+	
+	<script type="text/javascript" src='js/zepto.min.js'></script>
+	<script type="text/javascript" src='js/jquery.js'></script>
+	<script type="text/javascript" src='js/iscroll4.js'></script>
+
+</head>
+<body>
+	<div class='wrap' id='wrap'>
+		<header class="header">
+			<a href="denglu.html" id='back'></a>
+			<h2>忘记密码</h2>
+			<a href="#" id='tool'></a>
+		</header>
+		<section id='con' ng-controller='ctr'>
+			<form action="" class="sub">
+				<input type="text" class='user' placeholder="手机号">
+				<input type="password" class='pwd1' placeholder="新密码">
+				<input type="password" class='pwd2' placeholder="确认密码">
+			</form>
+			<p><input type="text" class='yanzheng' placeholder="图形验证码"><img src="images/yanzheng_03.png" alt=""></p>
+			<p><input type="text" class='getyanzheng' placeholder="手机验证码"><button class='get'>免费获取</button></p>
+			<button class='confrim'>确定</button>
+		</section>
+	</div>
+	<script type="text/javascript">
+		$('.confrim').on('click',function(){
+			location.href='index.html';
+		})
+	</script>
+</body>
+</html>

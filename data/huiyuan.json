@@ -1,0 +1,37 @@
+{
+	"success":1,
+	"cont":{
+		"main":[
+			{
+				"pic":"03.png",
+				"time":"我的订单",
+				"xpic":"img/right.png",
+				"address":"one.html"
+			},
+			{
+				"pic":"04.png",
+				"time":"求购信息",
+				"xpic":"img/right.png",
+				"address":"two.html"
+			},
+			{
+				"pic":"05.png",
+				"time":"用户信息",
+				"xpic":"img/right.png",
+				"address":"three.html"
+			},
+			{
+				"pic":"06.png",
+				"time":"收货地址",
+				"xpic":"img/right.png",
+				"address":"four.html"
+			},
+			{
+				"pic":"07.png",
+				"time":"系统设置",
+				"xpic":"img/right.png",
+				"address":"five.html"
+			}
+		]
+	}
+}

@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+}
+img {
+  vertical-align: middle;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+html {
+  width: 100%;
+  height: 100%;
+  font-size: 100px;
+}
+body {
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+}
+/*----------  wrap  ---------------*/
+.wrap {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+/*----------  header  ---------------*/
+.header {
+  width: 100%;
+  height: 0.46rem;
+  background-image: url(../img/bj.png);
+  position: relative;
+}
+.header h2 {
+  color: #fff;
+  text-align: center;
+  line-height: 0.46rem;
+}
+.header a {
+  position: absolute;
+}
+.header a:nth-child(1) {
+  width: 0.1rem;
+  height: 0.2rem;
+  left: 10px;
+  top: 50%;
+  margin-top: -0.1rem;
+}
+.header a:nth-child(1) img {
+  width: 100%;
+  height: 100%;
+}
+.header a:nth-child(3) {
+  width: 0.25rem;
+  height: 0.25rem;
+  right: 10px;
+  top: 50%;
+  margin-top: -0.125rem;
+}
+.header a:nth-child(3) img {
+  width: 100%;
+  height: 100%;
+}
+/*----------  bigimg  ---------------*/
+.bigimg {
+  width: 100%;
+  height: 1.8rem;
+}
+.bigimg img {
+  width: 100%;
+  height: 100%;
+}
+/*----------  main  ---------------*/
+.main {
+  width: 100%;
+  height: 100%;
+  -webkit-box-flex: 1;
+  background: #f7f7f7;
+}
+.main .intro {
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+}
+.main .intro h2 {
+  padding-top: 0.07rem;
+  line-height: 0.45rem;
+  border-bottom: 1px solid #ccc;
+  margin-left: 10px;
+}
+.main .intro p {
+  padding-top: 0.05rem;
+  padding: 0 10px;
+  line-height: 24px;
+  padding-bottom: 0.12rem;
+}
+.main .conway {
+  width: 100%;
+  margin-top: 0.1rem;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+.main .conway p {
+  line-height: 0.65rem;
+  padding: 0 10px;
+  background: #fff;
+  position: relative;
+}
+.main .conway p span {
+  display: inline-block;
+}
+.main .conway p span:nth-child(1) {
+  width: 0.25rem;
+  height: 0.25rem;
+  position: absolute;
+  top: 50%;
+  margin-top: -0.35rem;
+}
+.main .conway p span:nth-child(1) img {
+  width: 100%;
+  height: 100%;
+}
+.main .conway p span:nth-child(2) {
+  padding-left: 0.35rem;
+  padding-right: 0.08rem;
+}
+.main .btns {
+  width: 100%;
+  border-top: 1px solid #ccc;
+  margin-top: 0.1rem;
+  padding: 0 10px;
+  background: #fff;
+}
+.main .btns button {
+  width: 45%;
+  height: 0.5rem;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  color: #fff;
+  line-height: 0.5rem;
+  margin-top: 0.18rem;
+  font-size: 16px;
+  position: relative;
+}
+.main .btns button img {
+  position: absolute;
+  width: 0.25rem;
+  height: 0.25rem;
+  top: 50%;
+  margin-top: -0.125rem;
+  left: 50%;
+  margin-left: -0.55rem;
+  padding-right: 8px;
+}
+.main .btns button:nth-child(1) {
+  background: #ff6d00;
+}
+.main .btns button:nth-child(2) {
+  background: #73c35a;
+  position: absolute;
+  right: 10px;
+}

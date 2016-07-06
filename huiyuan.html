@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myapp">
+<head>
+	<meta charset="utf-8">
+	<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+	<meta content="yes" name="apple-mobile-web-app-capable">
+	<meta content="black" name="apple-mobile-web-app-status-bar-style">
+	<meta content="telephone=no" name="format-detection">
+	<meta content="email=no" name="format-detection">
+	<title>会员中心</title>
+	<link rel="stylesheet" type="text/css" href="css/huiyuan.css">
+</head>
+<body>
+	<div class="wrap" ng-controller="ctr">
+		<header class="header">
+			<a href="index.html"><img src="img/prev.png"></a>
+			<h2>会员中心</h2>
+			<a href="index.html"><img src="img/home.png"></a>
+		</header>
+		<section class="main">
+			<div class="icon">
+				<p class="ren"><img src="img/ren.png"></p>
+				<h3>昵称</h3>
+			</div>
+			<div class="con1">
+				<dl class="con11">
+					<dt><img src="img/01.png"></dt>
+					<dd>店铺收藏</dd>
+				</dl>
+				<dl class="con11">
+					<dt><img src="img/02.png"></dt>
+					<dd>浏览记录</dd>
+				</dl>
+			</div>
+			<div class="con2">
+				<ul>
+					<!-- <li ng-repeat="key in info">
+						<span><img src="img/{{ key.pic }}"></span>
+						<time>{{ key.time }}</time>
+						<a href="{{key.address}}"><img src="{{ key.xpic }}"></a>
+					</li> -->
+					<li ng-repeat="key in info">
+						<span><img ng-src="img/{{ key.pic }}"></span>
+						<time>{{ key.time }}</time>
+						<a href="{{key.address}}"><img ng-src="{{ key.xpic }}"></a>
+					</li>
+					<!-- <li>
+						<span><img src="img/03.png"></span>
+						<time>我的订单</time>
+						<span><img src="img/right.png"></span>
+					</li>
+					<li>
+						<span><img src="img/04.png"></span>
+						<time>求购信息</time>
+						<span><img src="img/right.png"></span>
+					</li>
+					<li>
+						<span><img src="img/05.png"></span>
+						<time>用户信息</time>
+						<span><img src="img/right.png"></span>
+					</li>
+					<li>
+						<span><img src="img/06.png"></span>
+						<time>收货地址</time>
+						<span><img src="img/right.png"></span>
+					</li>
+					<li>
+						<span><img src="img/07.png"></span>
+						<time>系统设置</time>
+						<span><img src="img/right.png"></span>
+					</li> -->
+				</ul>
+			</div>
+		</section>
+	</div>
+	<script type="text/javascript" src="js/setfontsize.js"></script>
+	<script type="text/javascript" src="js/angular.min.js"></script>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript">
+		var myapp=angular.module("myapp",[]);
+		myapp.controller("ctr",["$scope","$http",function($scope,$http){
+			$scope.info="";
+			$http.get("data/huiyuan.json").success(function(data){
+				//console.log(data);
+				$scope.info=data.cont.main;
+				$(".con11").on("click",function(){
+					location.href="denglu.html";
+				})
+			}).error(function(){
+				alert("数据加载失败！");
+			})
+	
+		}])
+	</script>
+
+</body>
+</html>

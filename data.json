@@ -1,0 +1,192 @@
+{
+	"success":1,
+	"head":[
+		{
+			"bg_color":"#0ec5d9",
+			"title":"景点推荐",
+			"img":"zindex_03.jpg",
+			"url":"jdtuijian.html"
+		},{
+			"bg_color":"#0ec5d9",
+			"title":"酒店",
+			"img":"zindex_07.jpg",
+			"url":"hotel.html"
+		},{
+			"bg_color":"#93cf0e",
+			"title":"吃喝玩乐",
+			"img":"zindex_09.jpg"
+		},{
+			"bg_color":"#f5b712",
+			"title":"租车服务",
+			"img":"zindex_12.jpg"
+		}
+	],
+	"pic":[
+		{"img":"banner_18.jpg"},
+		{"img":"banner_03.jpg"},
+		{"img":"banner_05.jpg"},
+		{"img":"banner_08.jpg"}
+	],
+	"foot":[
+		{
+			"bg_color":"#747ae9",
+			"title":"关于我们",
+			"img":"zindex_24.jpg"
+		},{
+			"bg_color":"#ff687c",
+			"title":"旅行社",
+			"img":"zindex_19.jpg"
+		},{
+			"bg_color":"#f98744",
+			"title":"旅游攻略",
+			"img":"zindex_17.jpg"
+		},{
+			"bg_color":"#3e93f5",
+			"title":"会员中心",
+			"img":"zindex_18.jpg"
+		}
+	],
+	"jditem":[
+		{
+			"img":"jdtuijian_10.jpg",
+			"title":"国家AAAAA级旅游景区",
+			"content":"——在规划等级中增加了AAAAA级旅游景区。新增的AAAAA级主要从细节",
+			"_src":"jdtuijian_xq.html",
+			"xianqin":[
+				{
+					"xqimg":"jdxq_03.jpg",
+					"xqtitle":"厦门市鼓浪屿风景名胜区",
+					"xqcontent":"厦门市鼓浪屿风景名胜区 景区简介：鼓浪屿位于福建省厦门市西南"
+				},{
+					"xqimg":"jdxq_06.jpg",
+					"xqtitle":"厦门市鼓浪屿风景名胜区",
+					"xqcontent":"厦门市鼓浪屿风景名胜区 景区简介：鼓浪屿位于福建省厦门市西南"
+				},{
+					"xqimg":"jdxq_08.jpg",
+					"xqtitle":"厦门市鼓浪屿风景名胜区",
+					"xqcontent":"厦门市鼓浪屿风景名胜区 景区简介：鼓浪屿位于福建省厦门市西南"
+				},{
+					"xqimg":"jdxq_10.jpg",
+					"xqtitle":"厦门市鼓浪屿风景名胜区",
+					"xqcontent":"厦门市鼓浪屿风景名胜区 景区简介：鼓浪屿位于福建省厦门市西南"
+				},{
+					"xqimg":"jdxq_12.jpg",
+					"xqtitle":"厦门市鼓浪屿风景名胜区",
+					"xqcontent":"厦门市鼓浪屿风景名胜区 景区简介：鼓浪屿位于福建省厦门市西南"
+				}
+			]
+		},{
+			"img":"jdtuijian_13.jpg",
+			"title":"国家AAAA级旅游景区",
+			"content":"——在规划等级中增加了AAAAA级旅游景区。新增的AAAAA级主要从细节",
+			"_src":"jdtuijian_xq2.html",
+			"xianqin2":[
+				{
+					"xqimg":"jdxq_03.jpg",
+					"xqtitle":"厦门市鼓浪屿风景名胜区2",
+					"xqcontent":"厦门市鼓浪屿风景名胜区 景区简介：鼓浪屿位于福建省厦门市西南"
+				},{
+					"xqimg":"jdxq_06.jpg",
+					"xqtitle":"厦门市鼓浪屿风景名胜区",
+					"xqcontent":"厦门市鼓浪屿风景名胜区 景区简介：鼓浪屿位于福建省厦门市西南"
+				},{
+					"xqimg":"jdxq_08.jpg",
+					"xqtitle":"厦门市鼓浪屿风景名胜区",
+					"xqcontent":"厦门市鼓浪屿风景名胜区 景区简介：鼓浪屿位于福建省厦门市西南"
+				},{
+					"xqimg":"jdxq_10.jpg",
+					"xqtitle":"厦门市鼓浪屿风景名胜区",
+					"xqcontent":"厦门市鼓浪屿风景名胜区 景区简介：鼓浪屿位于福建省厦门市西南"
+				},{
+					"xqimg":"jdxq_12.jpg",
+					"xqtitle":"厦门市鼓浪屿风景名胜区",
+					"xqcontent":"厦门市鼓浪屿风景名胜区 景区简介：鼓浪屿位于福建省厦门市西南"
+				}
+			]
+		},{
+			"img":"jdtuijian_15.jpg",
+			"title":"国家AAA级旅游景区",
+			"content":"——在规划等级中增加了AAAAA级旅游景区。新增的AAAAA级主要从细节",
+			"_src":"jdtuijian_xq3.html",
+			"xianqin3":[
+				{
+					"xqimg":"jdxq_03.jpg",
+					"xqtitle":"厦门市鼓浪屿风景名胜区3",
+					"xqcontent":"厦门市鼓浪屿风景名胜区 景区简介：鼓浪屿位于福建省厦门市西南"
+				},{
+					"xqimg":"jdxq_06.jpg",
+					"xqtitle":"厦门市鼓浪屿风景名胜区",
+					"xqcontent":"厦门市鼓浪屿风景名胜区 景区简介：鼓浪屿位于福建省厦门市西南"
+				},{
+					"xqimg":"jdxq_08.jpg",
+					"xqtitle":"厦门市鼓浪屿风景名胜区",
+					"xqcontent":"厦门市鼓浪屿风景名胜区 景区简介：鼓浪屿位于福建省厦门市西南"
+				},{
+					"xqimg":"jdxq_10.jpg",
+					"xqtitle":"厦门市鼓浪屿风景名胜区",
+					"xqcontent":"厦门市鼓浪屿风景名胜区 景区简介：鼓浪屿位于福建省厦门市西南"
+				},{
+					"xqimg":"jdxq_12.jpg",
+					"xqtitle":"厦门市鼓浪屿风景名胜区",
+					"xqcontent":"厦门市鼓浪屿风景名胜区 景区简介：鼓浪屿位于福建省厦门市西南"
+				}
+			]
+		},{
+			"img":"jdtuijian_17.jpg",
+			"title":"国家AA级旅游景区",
+			"content":"——在规划等级中增加了AAAAA级旅游景区。新增的AAAAA级主要从细节",
+			"_src":"jdtuijian_xq4.html",
+			"xianqin4":[
+				{
+					"xqimg":"jdxq_03.jpg",
+					"xqtitle":"厦门市鼓浪屿风景名胜区4",
+					"xqcontent":"厦门市鼓浪屿风景名胜区 景区简介：鼓浪屿位于福建省厦门市西南"
+				},{
+					"xqimg":"jdxq_06.jpg",
+					"xqtitle":"厦门市鼓浪屿风景名胜区",
+					"xqcontent":"厦门市鼓浪屿风景名胜区 景区简介：鼓浪屿位于福建省厦门市西南"
+				},{
+					"xqimg":"jdxq_08.jpg",
+					"xqtitle":"厦门市鼓浪屿风景名胜区",
+					"xqcontent":"厦门市鼓浪屿风景名胜区 景区简介：鼓浪屿位于福建省厦门市西南"
+				},{
+					"xqimg":"jdxq_10.jpg",
+					"xqtitle":"厦门市鼓浪屿风景名胜区",
+					"xqcontent":"厦门市鼓浪屿风景名胜区 景区简介：鼓浪屿位于福建省厦门市西南"
+				},{
+					"xqimg":"jdxq_12.jpg",
+					"xqtitle":"厦门市鼓浪屿风景名胜区",
+					"xqcontent":"厦门市鼓浪屿风景名胜区 景区简介：鼓浪屿位于福建省厦门市西南"
+				}
+			]
+		},{
+			"img":"jdtuijian_19.jpg",
+			"title":"国家A级旅游景区",
+			"content":"——在规划等级中增加了AAAAA级旅游景区。新增的AAAAA级主要从细节",
+			"_src":"jdtuijian_xq5.html",
+			"xianqin5":[
+				{
+					"xqimg":"jdxq_03.jpg",
+					"xqtitle":"厦门市鼓浪屿风景名胜区5",
+					"xqcontent":"厦门市鼓浪屿风景名胜区 景区简介：鼓浪屿位于福建省厦门市西南"
+				},{
+					"xqimg":"jdxq_06.jpg",
+					"xqtitle":"厦门市鼓浪屿风景名胜区",
+					"xqcontent":"厦门市鼓浪屿风景名胜区 景区简介：鼓浪屿位于福建省厦门市西南"
+				},{
+					"xqimg":"jdxq_08.jpg",
+					"xqtitle":"厦门市鼓浪屿风景名胜区",
+					"xqcontent":"厦门市鼓浪屿风景名胜区 景区简介：鼓浪屿位于福建省厦门市西南"
+				},{
+					"xqimg":"jdxq_10.jpg",
+					"xqtitle":"厦门市鼓浪屿风景名胜区",
+					"xqcontent":"厦门市鼓浪屿风景名胜区 景区简介：鼓浪屿位于福建省厦门市西南"
+				},{
+					"xqimg":"jdxq_12.jpg",
+					"xqtitle":"厦门市鼓浪屿风景名胜区",
+					"xqcontent":"厦门市鼓浪屿风景名胜区 景区简介：鼓浪屿位于福建省厦门市西南"
+				}
+			]
+		}
+	]
+}

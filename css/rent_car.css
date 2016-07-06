@@ -1,0 +1,54 @@
+@charset "UTF-8";
+@import url(reset.css);
+html, body, .container {
+  width: 100%;
+  height: 100%; }
+
+html {
+  font-size: 100px; }
+
+body {
+  font-size: 14px;
+  font-family: "Microsoft YaHei"; }
+
+.container {
+  display: -webkit-flex;
+  -webkit-flex-direction: column; }
+
+/*******************rent_car main部分***********************/
+.main {
+  -webkit-flex: 1;
+  overflow-y: scroll;
+  width: 100%; }
+  .main .cont {
+    width: 100%;
+    margin-bottom: 0.24rem; }
+  .main a {
+    display: block;
+    width: 96%;
+    height: 1rem;
+    margin: 0 auto;
+    border-bottom: 1px solid #ccc; }
+    .main a dl {
+      width: 100%;
+      height: 100%;
+      padding-top: 0.12rem;
+      display: -webkit-flex;
+      -webkit-flex-direction: row; }
+    .main a dt {
+      width: 0.8rem;
+      height: auto; }
+      .main a dt img {
+        width: 0.8rem;
+        height: auto; }
+    .main a dd {
+      -webkit-flex: 1;
+      padding-left: 0.1rem; }
+      .main a dd h3 {
+        font-size: 14px;
+        line-height: 30px;
+        font-weight: bold; }
+      .main a dd p {
+        color: #9c9a9c; }
+
+/*# sourceMappingURL=rent_car.css.map */

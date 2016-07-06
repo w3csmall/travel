@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta name="format-detection" content="telephone=no"/>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no"/>
+	<meta name="format-detection" content="email=no"/>
+	<title>酒店</title>
+	<link rel="stylesheet" href="css/jdtuijian.css">
+</head>
+<body ng-controller="ctr">
+	<div class="container">
+		<header class="head">
+			<a href="index.html"></a>
+			<h1>酒店</h1>
+			<a href="index.html"></a>
+		</header>
+		<section class="main">
+			<a href="{{key._src}}" ng-repeat="key in hotel" >
+				<dl>
+					<dt><img ng-src="images/{{key.img}}" alt=""></dt>
+					<dd>
+						<h2 ng-cloak="">{{key.title}}</h2>
+						<p ng-cloak="">{{key.content}}</p>
+					</dd>
+				</dl>
+			</a>
+		</section>
+	</div>
+	<script src="lib/zepto.js"></script>
+	<script src="lib/setfontsize.js"></script>
+	<!-- <script src="lib/handlebars.js"></script> -->
+	<script src="lib/angular.min.js"></script>
+	<script src="js/hotel.js"></script>
+</body>
+</html>
